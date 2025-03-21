@@ -1,6 +1,6 @@
 /* Reset default styles */
 * {
-    margin: 10%;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -15,7 +15,7 @@ body {
 
 /* Container */
 .container {
-    max-width: 800px;
+    max-width: 1440px;
     margin: auto;
     padding: 10%;
 }
