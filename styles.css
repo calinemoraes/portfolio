@@ -7,7 +7,7 @@
 
 /* Global styles */
 body {
-    font-family: Times New Roman, serif;
+    font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
     text-align: left;
     background-color: #ffffff;
@@ -30,7 +30,7 @@ header {
 }
 
 .logo img {
-    height: 50px;
+    height: 100%;
 }
 
 .nav-links {
