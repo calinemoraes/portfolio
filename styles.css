@@ -7,15 +7,15 @@
 
 /* Global styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Times New Roman, serif;
     line-height: 1.6;
-    text-align: center;
-    background-color: #f8f9fa;
+    text-align: left;
+    background-color: #ffffff;
 }
 
 /* Container */
 .container {
-    max-width: 800px;
+    max-width: 1440px;
     margin: auto;
     padding: 40px 5%; /* Reduced padding */
 }
@@ -69,7 +69,7 @@ header {
 
 .project figure img {
     width: 100%;
-    max-width: 700px; /* Larger image */
+    max-width: 1440px; /* Larger image */
     height: auto;
     border-radius: 10px; /* Optional: rounded corners */
 }
