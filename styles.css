@@ -9,30 +9,33 @@
 body {
     font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
-    text-align: left;
-    background-color: #ffffff;
+    text-align: center;
+    background-color: #f8f9fa;
 }
 
-/* Container */
+/* Container - Main Page Padding */
 .container {
-    max-width: 1440px;
+    max-width: 800px;
     margin: auto;
-    padding: 40px 5%; /* Reduced padding */
+    padding: 40px 5%; /* Same padding as header */
 }
 
 /* Header */
 header {
     background: white;
-    padding: 40px 5%;
+    padding: 40px 5%; /* Same as .container */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Align logo left, links right */
     align-items: center;
 }
 
+/* Logo */
 .logo img {
-    height: 32px;
+    height: 40px; /* Reduced size for better quality */
+    width: auto; /* Keeps aspect ratio */
 }
 
+/* Navigation links */
 .nav-links {
     display: flex;
     gap: 20px;
@@ -42,6 +45,7 @@ header {
     text-decoration: none;
     color: black;
     font-size: 18px;
+    font-weight: 500;
 }
 
 .nav-links a.active {
@@ -54,12 +58,12 @@ header {
 
 /* Intro Section */
 .intro {
-    margin-bottom: 60px; /* Reduced spacing */
+    margin-bottom: 60px;
 }
 
 /* Project Sections */
 .project {
-    margin-bottom: 120px; /* Less space between sections */
+    margin-bottom: 120px;
 }
 
 .project figure {
@@ -69,15 +73,15 @@ header {
 
 .project figure img {
     width: 100%;
-    max-width: 1440px; /* Larger image */
+    max-width: 700px; /* Keeps images large and sharp */
     height: auto;
-    border-radius: 10px; /* Optional: rounded corners */
+    border-radius: 10px;
 }
 
 /* Footer */
 footer {
-    margin-top: 120px; /* Less space above footer */
+    margin-top: 120px;
     text-align: center;
-    padding: 20px;
+    padding: 40px 5%;
     background: white;
 }
