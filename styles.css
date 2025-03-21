@@ -9,12 +9,12 @@
 body {
     font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
 }
 
 /* Main container */
 .container {
-    max-width: 800px;
+    max-width: 1440px;
     margin: auto;
     padding: 40px 5%;
 }
@@ -62,7 +62,7 @@ header {
 
 /* Project Sections */
 .project {
-    margin-bottom: 120px;
+    margin-bottom: 96px;
 }
 
 .project figure {
@@ -79,7 +79,7 @@ header {
 
 /* Footer */
 footer {
-    margin-top: 120px;
+    margin-top: 40px;
     text-align: center;
     padding: 40px 5%;
     background: white;
