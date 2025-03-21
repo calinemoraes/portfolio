@@ -70,10 +70,6 @@ header {
     margin-bottom: 120px;
 }
 
-.project figure {
-    display: flex;
-    justify-content: center;
-}
 
 .project figure img {
     width: 100%;
