@@ -21,9 +21,11 @@ body {
 
 /* Header */
 header {
-    max-width: 800px;
-    margin: auto;
-    padding: 40px 5%;
+    background: white;
+    padding: 40px 5%; /* Same as .container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Logo */
