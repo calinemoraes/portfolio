@@ -10,12 +10,12 @@ body {
     font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
     text-align: center;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
 }
 
 /* Container - Main Page Padding */
 .container {
-    max-width: 800px;
+    max-width: 1440px;
     margin: auto;
     padding: 40px 5%; /* Same padding as header */
 }
@@ -73,7 +73,7 @@ header {
 
 .project figure img {
     width: 100%;
-    max-width: 700px; /* Keeps images large and sharp */
+    max-width: 1440px; /* Keeps images large and sharp */
     height: auto;
     border-radius: 10px;
 }
