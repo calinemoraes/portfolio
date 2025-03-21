@@ -1,0 +1,77 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 10%;
+}
+
+/* Header */
+header {
+    background: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-links a.active {
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+/* Intro Section */
+.intro {
+    margin-bottom: 80px;
+}
+
+/* Project Sections */
+.project {
+    margin-bottom: 160px;
+}
+
+.project figure img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    margin-top: 160px;
+    text-align: center;
+    padding: 20px;
+    background: white;
+}
