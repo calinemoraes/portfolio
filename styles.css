@@ -9,15 +9,14 @@
 body {
     font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
-    text-align: center;
     background-color: #f8f9fa;
 }
 
-/* Container - Main Page Padding */
+/* Main container */
 .container {
     max-width: 800px;
     margin: auto;
-    padding: 40px 5%; /* Same padding as header */
+    padding: 40px 5%;
 }
 
 /* Header */
@@ -35,7 +34,7 @@ header {
     width: auto; /* Keeps aspect ratio */
 }
 
-/* Navigation links */
+/* Navigation */
 .nav-links {
     display: flex;
     gap: 20px;
@@ -52,13 +51,13 @@ header {
     font-weight: bold;
 }
 
-.nav-links a: hover {
+.nav-links a:hover {
     color: #007bff;
 }
 
-/* Intro Section */
-.intro {
-    margin-bottom: 60px;
+/* Ensure all text (except footer) is left-aligned */
+.container, .project, .intro {
+    text-align: left;
 }
 
 /* Project Sections */
@@ -73,7 +72,7 @@ header {
 
 .project figure img {
     width: 100%;
-    max-width: 1440px; /* Updated max width */
+    max-width: 1440px;
     height: auto;
     border-radius: 10px;
 }
@@ -85,4 +84,3 @@ footer {
     padding: 40px 5%;
     background: white;
 }
-
