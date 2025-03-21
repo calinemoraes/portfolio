@@ -67,7 +67,7 @@ header {
 
 .project figure {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .project figure img {
